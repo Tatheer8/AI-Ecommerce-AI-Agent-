@@ -1,0 +1,42 @@
+{
+  "name": "ai-ecommerce-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "tsx test_policy.ts && tsx test_sheets.ts && tsx test_tools.ts && tsx test_chat_route.ts",
+    "test:policy": "tsx test_policy.ts",
+    "test:sheets": "tsx test_sheets.ts",
+    "test:tools": "tsx test_tools.ts",
+    "test:chat": "tsx test_chat_route.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^18.0.9",
+    "exceljs": "^4.4.0",
+    "googleapis": "^189.0.0",
+    "lucide-react": "^1.66.0",
+    "mammoth": "^1.13.0",
+    "next": "^16.4.3",
+    "nodemailer": "^10.3.1",
+    "openai": "^7.47.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "resend": "^6.37.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/nodemailer": "^8.0.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}

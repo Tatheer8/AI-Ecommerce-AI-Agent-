@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment files & Secrets
+.env
+.env*.local
+*.env
+ai-ecommerce-agent*.json
+*.pem
+*.key
+
+# Google Service Account Credentials (except project configs)
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+
+# Next.js build outputs & cache
+.next/
+out/
+dist/
+build/
+
+# Logs & temporary files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tmp
+scratch/
+
+# Synced local Excel cache
+products_synced.xlsx
+
+# Operating System files
+.DS_Store
+Thumbs.db
